@@ -1,0 +1,6 @@
+C:\Users\slage\Desktop\C# Bootcamp\Student_Info\Student_Info\obj\Debug\Student_Info.csprojResolveAssemblyReference.cache
+C:\Users\slage\Desktop\C# Bootcamp\Student_Info\Student_Info\bin\Debug\Student_Info.exe.config
+C:\Users\slage\Desktop\C# Bootcamp\Student_Info\Student_Info\bin\Debug\Student_Info.exe
+C:\Users\slage\Desktop\C# Bootcamp\Student_Info\Student_Info\bin\Debug\Student_Info.pdb
+C:\Users\slage\Desktop\C# Bootcamp\Student_Info\Student_Info\obj\Debug\Student_Info.exe
+C:\Users\slage\Desktop\C# Bootcamp\Student_Info\Student_Info\obj\Debug\Student_Info.pdb
