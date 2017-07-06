@@ -8,11 +8,14 @@ namespace Student_Info
 {
     class Student
     {
+
+        // Student fields are declared
         public string name;
         public int age;
         public string hometown;
         public string food;
 
+        // constructor sets fields = to setter methods
         public Student()
         {
             this.name = SetName();
@@ -22,6 +25,7 @@ namespace Student_Info
 
         }
 
+        // setters set the values for the fields, getters return the values for the fields. input is only validated for the age field
         public string SetName()
         {
             string name;

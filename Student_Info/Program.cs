@@ -10,26 +10,13 @@ namespace Student_Info
     class Program
     {
         static void Main(string[] args)
-        { 
-
-            //Dictionary<int, Student> students = StudentBuilder();
-
-            //Student stu = students[1];
-
-            //int age = stu.GetAge();
-            //string name = stu.GetName();
-            //string food = stu.GetFood();
-            //string home = stu.GetHome();
-
-            //Console.WriteLine($"{name} is from {home}, and is {age}. Their favorite food is {food}");
-            
+        {   
             bool cont = true;
             Dictionary<int, Student> students = null;
             while (cont == true)
             {
                 string choice;
                 int parChoice;
-                
 
                 Console.WriteLine("Hello, please make a selection: \n1) Add Students\n2) Get Student Info\n3) Quit\n");
                 choice = Console.ReadLine();
@@ -49,7 +36,6 @@ namespace Student_Info
                     Console.WriteLine(students.Count);
                     int studentChoice = getStudentChoice(students);
                     displayInfo(students[studentChoice]);
-
                 }
                 else
                 {
@@ -74,7 +60,6 @@ namespace Student_Info
                 Console.WriteLine("Please enter a positive integer: \n");
                 c = Console.ReadLine();
             }
-
 
             for (int i = 0; i < cParsed; i++)
             {
